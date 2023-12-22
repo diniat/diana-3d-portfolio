@@ -188,8 +188,7 @@ export const projects = [
     hidden: false,
   },
   {
-    image:
-      "https://asset.cloudinary.com/verdevolvercloud/157089ef8b4a08ba1e74cf72f95c441d",
+    image: { first },
     type: "Frontend Personal Project",
     title: "Hoo Bank",
     description:
@@ -199,8 +198,7 @@ export const projects = [
     hidden: false,
   },
   {
-    image:
-      "https://asset.cloudinary.com/verdevolvercloud/0a50f5652b0d057447d02594d8cecb5e",
+    image: { third },
     type: "Front End Freelance Project",
     title: "Ideas Tech",
     description:
@@ -210,8 +208,7 @@ export const projects = [
     hidden: true,
   },
   {
-    image:
-      "https://asset.cloudinary.com/verdevolvercloud/8bcfce14005a7809ce7293c58fdb06f7",
+    image: { fourth },
     type: "Personal Project",
     title: "Animated Portfolio",
     description:
