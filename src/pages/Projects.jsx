@@ -33,7 +33,12 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         xs:rounded-[1.5rem]  "
       />
       <div className="w-full relative overflow-hidden rounded-lg h-full aspect-video">
-        <img src={img} alt={title} fill className="object-cover aspect-video" />
+        <img
+          src={img}
+          alt={title}
+          fill
+          className="object-cover object-center aspect-video"
+        />
       </div>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
         <span className="text-xl font-medium lg:text-lg md:text-base">
