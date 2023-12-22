@@ -62,7 +62,7 @@ const Project = ({ title, type, img, link, github, hidden, gHidden }) => {
           >
             Visit
           </a>
-          {gHidden ? null : (
+          {gHidden === true ? null : (
             <a
               href={github}
               target="_blank"
