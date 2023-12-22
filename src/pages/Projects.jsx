@@ -41,7 +41,7 @@ const Project = ({ title, type, img, link, github, hidden }) => {
       >
         <div className="w-full relative rounded-lg h-20 aspect-square">
           <img
-            src={img}
+            src="../assets/images/1.png"
             alt={title}
             className="object-cover aspect-square"
             fill

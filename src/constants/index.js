@@ -162,7 +162,7 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/contact",
+    link: "https://diana-3d-portfolio.vercel.app/contact",
   },
   {
     name: "GitHub",
