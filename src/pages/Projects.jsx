@@ -40,7 +40,7 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
         <div className="w-full relative rounded-lg h-20 aspect-square">
-          <img
+          <Image
             src={img}
             alt={title}
             className="object-cover aspect-square"
