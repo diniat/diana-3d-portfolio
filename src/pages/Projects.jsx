@@ -21,7 +21,7 @@ export const GithubIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-const Project = ({ title, type, img, link, github, hidden }) => {
+const Project = ({ title, type, img, link, github, hidden, gHidden }) => {
   return (
     <article
       className="flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl
@@ -44,10 +44,9 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         <span className="text-xl font-medium lg:text-lg md:text-base">
           {type}
         </span>
-        <h2 className="underline-offset-2 hover:underline my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
+        <h2 className="hover:underline my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
           {title}
         </h2>
-
         <div
           className={`${
             hidden == true ? "hidden" : "flex"
@@ -63,14 +62,16 @@ const Project = ({ title, type, img, link, github, hidden }) => {
           >
             Visit
           </a>
-          <a
-            href={github}
-            target="_blank"
-            className="w-8 md:w-6"
-            aria-label={title}
-          >
-            <GithubIcon />
-          </a>
+          {gHidden ? null : (
+            <a
+              href={github}
+              target="_blank"
+              className="w-8 md:w-6"
+              aria-label={title}
+            >
+              <GithubIcon />
+            </a>
+          )}
         </div>
       </div>
     </article>

@@ -186,6 +186,7 @@ export const projects = [
     link: "https://dinius-ai.vercel.app/",
     github: "https://github.com/diniat/saas-ai-app",
     hidden: false,
+    gHidden: false,
   },
   {
     image: "/static/1.png",
@@ -196,6 +197,7 @@ export const projects = [
     link: "https://hoo-bank-personal-project.vercel.app/",
     github: "https://github.com/diniat/HooBank-personalProject",
     hidden: false,
+    gHidden: false,
   },
   {
     image: "/static/3.png",
@@ -206,6 +208,7 @@ export const projects = [
     link: "",
     github: "",
     hidden: true,
+    gHidden: true,
   },
   {
     image: "/static/4.png",
@@ -216,5 +219,6 @@ export const projects = [
     link: "https://dianatobe-dev.vercel.app/",
     github: "",
     hidden: false,
+    gHidden: true,
   },
 ];
