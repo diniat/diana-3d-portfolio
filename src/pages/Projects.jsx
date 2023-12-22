@@ -55,7 +55,6 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         >
           <a
             href={link}
-            target={"_blank"}
             className="rounded text-lg
             font-medium underline md:text-base
             "
@@ -63,12 +62,7 @@ const Project = ({ title, type, img, link, github, hidden }) => {
           >
             Visit
           </a>
-          <a
-            href={github}
-            target={"_blank"}
-            className="w-8 md:w-6"
-            aria-label={title}
-          >
+          <a href={github} className="w-8 md:w-6" aria-label={title}>
             <GithubIcon />
           </a>
         </div>
