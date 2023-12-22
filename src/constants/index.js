@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { hoooman, first, second, third, fourth } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -12,18 +10,15 @@ import {
   linkedin,
   mongodb,
   motion,
-  mui,
+  trpc,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
+  reactNative,
 } from "../assets/icons";
 
 export const skills = [
@@ -36,6 +31,16 @@ export const skills = [
     imageUrl: express,
     name: "Express",
     type: "Backend",
+  },
+  {
+    imageUrl: trpc,
+    name: "tRPC",
+    type: "Backend",
+  },
+  {
+    imageUrl: reactNative,
+    name: "React Native",
+    type: "Mobile Development",
   },
   {
     imageUrl: git,
@@ -66,11 +71,6 @@ export const skills = [
     imageUrl: motion,
     name: "Motion",
     type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
   },
   {
     imageUrl: nextjs,
@@ -111,55 +111,22 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Hoooman Studio, Vancouver - Canada",
+    icon: hoooman,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the front-end development for diverse websites, meticulously following Figma designs to create visually stunning and user-friendly interfaces.",
+      "Successfully developed a Webflow ecommerce website from inception to completion.",
+      "Established and maintained forms across various websites, optimizing user interaction and data collection processes.",
+      "Responded to client requests by seamlessly integrating full-stack features, such as HubSpot API integration, Hotjar integration, etc.",
+      "Actively contributed to React Native projects, showcasing versatility in mobile application development.",
+      "Collaborated on full-stack projects with diverse technology stacks, encompassing Next.js (both page router and app router), React, TypeScript, tRPC, Sanity, Node.js, and Tailwind CSS.",
+      "Translated intricate design concepts into reality by bringing to life complex animations using plain CSS, Framer Motion, and Tailwind CSS.",
+      "Demonstrated knowledge of SEO best practices, optimizing web pages for increased search engine visibility and organic traffic.",
+      "Translated Figma designs into tangible WordPress pages, ensuring seamless integration of design and functionality.",
+      "Successfully identified and resolved critical bugs in production environments, enhancing system reliability and user experience.",
     ],
   },
 ];
@@ -173,62 +140,51 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/diniat",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/diana-atobe/",
   },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    image: second,
+    type: "Saas Personal Project",
+    title: "Dinius AI Saas Application",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "AI SaaS Platform with five AI tools. Powered by the Next.js 13 App Router, the platform is not only efficient but also user-centric. Modern UX/UI Design, responsive for all devices. Made using a rich palette of web development technologies like React, Tailwind, Prisma, MySQL, Clerk, and more.",
+    link: "https://dinius-ai.vercel.app/",
+    github: "https://github.com/diniat/saas-ai-app",
+    hidden: false,
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    image: first,
+    type: "Frontend Personal Project",
+    title: "Hoo Bank",
+    description: "",
+    link: "https://hoo-bank-personal-project.vercel.app/",
+    github: "https://github.com/diniat/HooBank-personalProject",
+    hidden: false,
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
-    description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    image: third,
+    type: "Front End Freelance Project",
+    title: "Ideas Tech",
+    description: "",
+    link: "",
+    github: "",
+    hidden: true,
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    image: fourth,
+    type: "3D Personal Project",
+    title: "3D Portfolio",
+    description: "",
+    link: "",
+    github: "",
+    hidden: true,
   },
 ];

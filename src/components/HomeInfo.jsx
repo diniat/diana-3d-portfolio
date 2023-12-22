@@ -6,10 +6,10 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-        Hi, I'm
-        <span className="font-semibold mx-2 text-white">Adrian</span>
+        Hi, I&apos;m
+        <span className="font-semibold mx-2 text-white">Diana</span>
         👋
-        <br />A Software Engineer from Croatia 🇭🇷
+        <br />A Software Developer from Paraguay
       </h1>
     );
 
@@ -17,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
+          Studied, practiced, worked <br /> and picked up many skills along the
           way
         </p>
 
@@ -33,8 +33,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
+          Led and collaborated on multiple projects. <br /> Curious to see some
+          of my personal projects?
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
