@@ -34,11 +34,11 @@ const Project = ({ title, type, img, link, github, hidden }) => {
       />
       <div className="w-full rounded-lg h-20 aspect-square">
         <img
-          src={img}
+          src={require(img)}
           alt={title}
           width={500}
           height={200}
-          className="object-cover aspect-square z-10"
+          className="object-cover aspect-square"
         />
       </div>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
