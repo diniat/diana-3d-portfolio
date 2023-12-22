@@ -44,7 +44,8 @@ const Project = ({ title, type, img, link, github, hidden }) => {
             src={img}
             alt={title}
             className="object-cover aspect-square"
-            fill
+            width={500}
+            height={200}
           />
         </div>
       </Link>
