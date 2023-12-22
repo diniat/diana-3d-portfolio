@@ -7,7 +7,7 @@ import javascript from "./javascript.svg";
 import mongodb from "./mongodb.svg";
 import motion from "./motion.svg";
 import mui from "./mui.svg";
-import reactNative from "./react-native-1.svg";
+import reactNative from "./react-n.svg";
 import trpc from "./trpc.svg";
 import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";

@@ -114,7 +114,7 @@ export const experiences = [
     title: "Software Developer",
     company_name: "Hoooman Studio, Vancouver - Canada",
     icon: hoooman,
-    iconBg: "#accbe1",
+    iconBg: "#0d0d0d",
     date: "August 2023 - Present",
     points: [
       "Spearheaded the front-end development for diverse websites, meticulously following Figma designs to create visually stunning and user-friendly interfaces.",
