@@ -208,7 +208,7 @@ export const projects = [
     hidden: true,
   },
   {
-    image: "/3d-portfolio/public/static/4.png",
+    image: "/static/4.png",
     type: "Personal Project",
     title: "Animated Portfolio",
     description:
