@@ -1,6 +1,8 @@
 import css from "./css.svg";
 import express from "./express.svg";
 import git from "./git.svg";
+import mySql from "./mysql.svg";
+import postgres from "./postgresql.svg";
 import github from "./github.svg";
 import html from "./html.svg";
 import javascript from "./javascript.svg";
@@ -60,4 +62,6 @@ export {
   soundoff,
   trpc,
   reactNative,
+  mySql,
+  postgres,
 };

@@ -39,14 +39,14 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         target={"_blank"}
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
-        <img
-          src={img}
-          alt={title}
-          className="h-auto w-full"
-          sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
-        />
+        <div className="w-full relative rounded-lg h-20 aspect-square">
+          <img
+            src={img}
+            alt={title}
+            className="object-cover aspect-square"
+            fill
+          />
+        </div>
       </Link>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
         <span className="text-xl font-medium lg:text-lg md:text-base">

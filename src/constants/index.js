@@ -1,4 +1,4 @@
-import { hoooman, first, second, third, fourth } from "../assets/images";
+import { hoooman, first, second, third, fourth, henry } from "../assets/images";
 import {
   contact,
   css,
@@ -19,6 +19,8 @@ import {
   tailwindcss,
   typescript,
   reactNative,
+  mySql,
+  postgres,
 } from "../assets/icons";
 
 export const skills = [
@@ -26,6 +28,11 @@ export const skills = [
     imageUrl: css,
     name: "CSS",
     type: "Frontend",
+  },
+  {
+    imageUrl: mySql,
+    name: "MySQL",
+    type: "Database",
   },
   {
     imageUrl: express,
@@ -56,6 +63,11 @@ export const skills = [
     imageUrl: html,
     name: "HTML",
     type: "Frontend",
+  },
+  {
+    imageUrl: postgres,
+    name: "PostgreSQL",
+    type: "Database",
   },
   {
     imageUrl: javascript,
@@ -123,10 +135,25 @@ export const experiences = [
       "Responded to client requests by seamlessly integrating full-stack features, such as HubSpot API integration, Hotjar integration, etc.",
       "Actively contributed to React Native projects, showcasing versatility in mobile application development.",
       "Collaborated on full-stack projects with diverse technology stacks, encompassing Next.js (both page router and app router), React, TypeScript, tRPC, Sanity, Node.js, and Tailwind CSS.",
+      "Demonstrated exceptional adaptability by quickly mastering new technologies and tools as required, ensuring seamless integration into existing workflows.",
       "Translated intricate design concepts into reality by bringing to life complex animations using plain CSS, Framer Motion, and Tailwind CSS.",
       "Demonstrated knowledge of SEO best practices, optimizing web pages for increased search engine visibility and organic traffic.",
-      "Translated Figma designs into tangible WordPress pages, ensuring seamless integration of design and functionality.",
+      "Translated designs into tangible WordPress pages, ensuring seamless integration of design and functionality.",
       "Successfully identified and resolved critical bugs in production environments, enhancing system reliability and user experience.",
+    ],
+  },
+  {
+    title: "Full Stack Teaching Assistant",
+    company_name: "Henry Bootcamp, Buenos Aires - Argentina",
+    icon: henry,
+    iconBg: "#ffff00",
+    date: "January 2023 - March 2023",
+    points: [
+      "Coordinate a group of new joining students throughout the whole bootcamp experience.",
+      "Guide students in the first steps of the course and clarify their doubts.",
+      "Provide assistance in solving exercises and encourage group teamwork (Pair Programming).",
+      "Suggest ideas to improve the Bootcamp processes.",
+      "Promote collaboration and build community within the students.",
     ],
   },
 ];
@@ -164,7 +191,8 @@ export const projects = [
     image: first,
     type: "Frontend Personal Project",
     title: "Hoo Bank",
-    description: "",
+    description:
+      "Hoo Bank is a personal front end project with modern UI/UX design, focused on responsive web design for all devices. The website consists of an impressive 'hero' section, high-quality assets and gradients, business statistics, reusable feature sections with call-to-action buttons, testimonials, and more. Technologies used: Javascript, React, Tailwind CSS.",
     link: "https://hoo-bank-personal-project.vercel.app/",
     github: "https://github.com/diniat/HooBank-personalProject",
     hidden: false,
@@ -173,18 +201,20 @@ export const projects = [
     image: third,
     type: "Front End Freelance Project",
     title: "Ideas Tech",
-    description: "",
+    description:
+      "Front end freelance project crafted to align with a modern and intuitive Adobe XD design. This project was engineered using a cutting-edge tech stack, including Next.js, React, TypeScript, and Tailwind CSS. Prioritized responsive design to ensure seamless functionality across various devices. The architecture was built with a focus on reusable components, emphasizing clean, maintainable code. ",
     link: "",
     github: "",
     hidden: true,
   },
   {
     image: fourth,
-    type: "3D Personal Project",
-    title: "3D Portfolio",
-    description: "",
-    link: "",
+    type: "Personal Project",
+    title: "Animated Portfolio",
+    description:
+      "Immersive 3D portfolio. Developed using Three.js and React Three Fiber, alongside React Three Drei, to create a visually engaging and interactive 3D experience. Leveraging the power of React and Vite for better graphics rendering, and Tailwind CSS for stylish and responsive design. The integration of background music adds an additional layer of engagement, creating a multisensory user experience.",
+    link: "https://dianatobe-dev.vercel.app/",
     github: "",
-    hidden: true,
+    hidden: false,
   },
 ];
