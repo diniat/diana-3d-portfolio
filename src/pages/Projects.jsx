@@ -34,7 +34,7 @@ const Project = ({ title, type, img, link, github, hidden }) => {
       />
       <div className="w-full rounded-lg h-20 aspect-square">
         <img
-          src={require(img)}
+          src={img}
           alt={title}
           width={500}
           height={200}
@@ -106,7 +106,7 @@ const Projects = () => {
             <Project
               title={project.name}
               type={project.type}
-              img={project.img}
+              img={project.image}
               link={project.link}
               github={project.github}
               hidden={project.hidden}
