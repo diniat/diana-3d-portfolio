@@ -178,7 +178,8 @@ export const socialLinks = [
 
 export const projects = [
   {
-    image: second,
+    image:
+      "https://asset.cloudinary.com/verdevolvercloud/334804e1ba4885d3fb752f79260e7f4b",
     type: "Saas Personal Project",
     title: "Dinius AI Saas Application",
     description:
@@ -188,7 +189,8 @@ export const projects = [
     hidden: false,
   },
   {
-    image: first,
+    image:
+      "https://asset.cloudinary.com/verdevolvercloud/157089ef8b4a08ba1e74cf72f95c441d",
     type: "Frontend Personal Project",
     title: "Hoo Bank",
     description:
@@ -198,7 +200,8 @@ export const projects = [
     hidden: false,
   },
   {
-    image: third,
+    image:
+      "https://asset.cloudinary.com/verdevolvercloud/0a50f5652b0d057447d02594d8cecb5e",
     type: "Front End Freelance Project",
     title: "Ideas Tech",
     description:
@@ -208,7 +211,8 @@ export const projects = [
     hidden: true,
   },
   {
-    image: fourth,
+    image:
+      "https://asset.cloudinary.com/verdevolvercloud/8bcfce14005a7809ce7293c58fdb06f7",
     type: "Personal Project",
     title: "Animated Portfolio",
     description:
