@@ -1,6 +1,5 @@
-import { hoooman, first, second, third, fourth, henry } from "../assets/images";
+import { hoooman, henry } from "../assets/images";
 import {
-  contact,
   css,
   express,
   git,

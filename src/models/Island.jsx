@@ -1,14 +1,4 @@
 /* eslint-disable react/no-unknown-property */
-/**
- * IMPORTANT: Loading glTF models into a Three.js scene is a lot of work.
- * Before we can configure or animate our model's meshes, we need to iterate through
- * each part of our model's meshes and save them separately.
- *
- * But luckily there is an app that turns gltf or glb files into jsx components
- * For this model, visit https://gltf.pmnd.rs/
- * And get the code. And then add the rest of the things.
- * YOU DON'T HAVE TO WRITE EVERYTHING FROM SCRATCH
- */
 
 import { a } from "@react-spring/three";
 import { useEffect, useRef } from "react";
@@ -141,7 +131,7 @@ export function Island({
        * Normalize the rotation value to ensure it stays within the range [0, 2 * Math.PI].
        * The goal is to ensure that the rotation value remains within a specific range to
        * prevent potential issues with very large or negative rotation values.
-       *  Here's a step-by-step explanation of what this code does:
+       *  step-by-step explanation of what this code does:
        *  1. rotation % (2 * Math.PI) calculates the remainder of the rotation value when divided
        *     by 2 * Math.PI. This essentially wraps the rotation value around once it reaches a
        *     full circle (360 degrees) so that it stays within the range of 0 to 2 * Math.PI.
