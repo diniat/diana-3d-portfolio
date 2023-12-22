@@ -212,7 +212,7 @@ export const projects = [
     type: "Personal Project",
     title: "Animated Portfolio",
     description:
-      "Immersive 3D portfolio. Developed using Three.js and React Three Fiber, alongside React Three Drei, to create a visually engaging and interactive 3D experience. Leveraging the power of React and Vite for better graphics rendering, and Tailwind CSS for stylish and responsive design. The integration of background music adds an additional layer of engagement, creating a multisensory user experience.",
+      "Interactive portfolio built using Next.js and React and Tailwind CSS. The animations are handled by Framer Motion, adding an engaging and modern touch to the interface. The design is not only visually appealing but also fully responsive, ensuring a consistent and accessible experience across all devices. A notable feature of this portfolio is the inclusion of both light and dark modes, catering to user preferences and enhancing accessibility.",
     link: "https://dianatobe-dev.vercel.app/",
     github: "",
     hidden: false,
