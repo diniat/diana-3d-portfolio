@@ -32,14 +32,8 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl md:-right-2 md:w-[101%] xs:h-[102%]
         xs:rounded-[1.5rem]  "
       />
-      <div className="w-full rounded-lg h-20 aspect-square">
-        <img
-          src={img}
-          alt={title}
-          width={500}
-          height={200}
-          className="object-cover aspect-square"
-        />
+      <div className="w-full relative overflow-hidden rounded-lg h-20 aspect-video">
+        <img src={img} alt={title} fill className="object-cover aspect-video" />
       </div>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
         <span className="text-xl font-medium lg:text-lg md:text-base">

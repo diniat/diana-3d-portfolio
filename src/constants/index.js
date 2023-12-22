@@ -178,7 +178,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    image: "/3d-portfolio/public/static/2.png",
+    image: "/static/2.png",
     type: "Saas Personal Project",
     title: "Dinius AI Saas Application",
     description:
@@ -188,7 +188,7 @@ export const projects = [
     hidden: false,
   },
   {
-    image: "/public/static/1.png",
+    image: "/static/1.png",
     type: "Frontend Personal Project",
     title: "Hoo Bank",
     description:
@@ -198,7 +198,7 @@ export const projects = [
     hidden: false,
   },
   {
-    image: "/3d-portfolio/public/static/3.png",
+    image: "/static/3.png",
     type: "Front End Freelance Project",
     title: "Ideas Tech",
     description:
