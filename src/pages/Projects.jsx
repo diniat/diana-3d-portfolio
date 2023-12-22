@@ -44,22 +44,16 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         <span className="text-xl font-medium lg:text-lg md:text-base">
           {type}
         </span>
+        <h2 className="underline-offset-2 hover:underline my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
+          {title}
+        </h2>
 
-        <Link
-          href={link}
-          target={"_blank"}
-          className="underline-offset-2 hover:underline"
-        >
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
-            {title}
-          </h2>
-        </Link>
         <div
           className={`${
             hidden == true ? "hidden" : "flex"
           } w-full items-center  justify-between`}
         >
-          <Link
+          <a
             href={link}
             target={"_blank"}
             className="rounded text-lg
@@ -68,15 +62,15 @@ const Project = ({ title, type, img, link, github, hidden }) => {
             aria-label={title}
           >
             Visit
-          </Link>
-          <Link
+          </a>
+          <a
             href={github}
             target={"_blank"}
             className="w-8 md:w-6"
             aria-label={title}
           >
             <GithubIcon />
-          </Link>
+          </a>
         </div>
       </div>
     </article>
