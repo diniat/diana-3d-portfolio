@@ -44,7 +44,7 @@ const Project = ({ title, type, img, link, github, hidden, gHidden }) => {
         <span className="text-xl font-medium lg:text-lg md:text-base">
           {type}
         </span>
-        <h2 className="hover:underline my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
+        <h2 className=" my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
           {title}
         </h2>
         <div
