@@ -55,6 +55,7 @@ const Project = ({ title, type, img, link, github, hidden }) => {
         >
           <a
             href={link}
+            target="_blank"
             className="rounded text-lg
             font-medium underline md:text-base
             "
