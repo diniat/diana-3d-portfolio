@@ -98,7 +98,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
             <Project
-              title={project.name}
+              title={project.title}
               type={project.type}
               img={project.image}
               link={project.link}
