@@ -24,25 +24,23 @@ export const GithubIcon = ({ className, ...rest }) => (
 const Project = ({ title, type, img, link, github, hidden }) => {
   return (
     <article
-      className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl
+      className="flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl
        p-6 xs:p-4 neo-brutalism-blue text-white
       "
     >
       <div
-        className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark
-         dark:bg-light  md:-right-2 md:w-[101%] xs:h-[102%]
+        className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl md:-right-2 md:w-[101%] xs:h-[102%]
         xs:rounded-[1.5rem]  "
       />
-
-      <Link
-        href={link}
-        target={"_blank"}
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
-      >
-        <div className="w-full rounded-lg h-20 aspect-square">
-          <img src={img} alt={title} width={500} height={200} />
-        </div>
-      </Link>
+      <div className="w-full rounded-lg h-20 aspect-square">
+        <img
+          src={img}
+          alt={title}
+          width={500}
+          height={200}
+          className="object-cover aspect-square z-10"
+        />
+      </div>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
         <span className="text-xl font-medium lg:text-lg md:text-base">
           {type}
