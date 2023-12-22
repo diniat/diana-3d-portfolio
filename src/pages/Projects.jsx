@@ -66,7 +66,7 @@ const Project = ({ title, type, img, link, github, hidden, gHidden }) => {
             <a
               href={github}
               target="_blank"
-              className="w-8 md:w-6"
+              className={`${gHidden == true ? "hidden" : ""} w-8 md:w-6`}
               aria-label={title}
             >
               <GithubIcon />
@@ -104,6 +104,7 @@ const Projects = () => {
               link={project.link}
               github={project.github}
               hidden={project.hidden}
+              gHidden={project.gHidden}
             />
             <div className="mt-5 flex flex-col">
               <p className="mt-2 text-slate-500">{project.description}</p>
