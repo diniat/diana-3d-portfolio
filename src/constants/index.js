@@ -178,7 +178,8 @@ export const socialLinks = [
 
 export const projects = [
   {
-    image: { second },
+    image:
+      "https://asset.cloudinary.com/verdevolvercloud/334804e1ba4885d3fb752f79260e7f4b",
     type: "Saas Personal Project",
     title: "Dinius AI Saas Application",
     description:
